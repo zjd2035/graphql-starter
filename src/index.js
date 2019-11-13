@@ -54,7 +54,7 @@ server.applyMiddleware({ app, path: '/graphql' });
 const createUsersWithMessages = async () => {
   await models.User.create(
     {
-      email: 'zdowns.3peaks@gmail.com',
+      email: 'fakeemail@nullmailer.com',
       password: '12345678',
     },
   );
